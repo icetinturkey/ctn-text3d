@@ -42,21 +42,31 @@ exports['ctn-text3d']:Text3D({
 ## Advanced Usage
 
 ```lua
-CreateThread(function()
- exports['ctn-text3d']:Text3D({
-  id = "SAYHELLO001",
-  coords = vector3(-103.59, 6313.2, 32.49),
-  key = "F",
-  message = "Say Hello",
-  r = 176,
-  g = 66,
-  b = 233,
-  event = "ctn-customs:client:sayHello",
-  values = { mymessage = "Hello World" }
- })
+AddEventHandler('onResourceStart', function(resourceName)
+ if (GetCurrentResourceName() == resourceName) then
+  exports['ctn-text3d']:Text3D({
+   id = "SAYHELLO001",
+   coords = vector3(1004.1, 4319.8, 47.5),
+   key = "F",
+   message = "Say Hello",
+   r = 176,
+   g = 66,
+   b = 233,
+   event = "ctn-customs:client:sayHello",
+   values = { mymessage = "Hello World" }
+  })
+ end
 end)
 
 RegisterNetEvent("ctn-customs:client:sayHello", function(values)
  TriggerEvent("chatMessage", '', { 0, 0x99, 255}, "" .. values.mymessage)
 end)
 ```
+
+## :coffee: Buy me a cup of coffee
+
+You can star my repo or donate to me to keep this sharing community growing.
+* Litecoin
+  ```sh
+  LMuSGiA477Pw3DFaEixMoAaL8XBWJQmaAW
+  ```
