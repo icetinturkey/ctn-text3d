@@ -2,8 +2,8 @@
 
 Modular and standalone 3D in-game text plugin for Fivem with enhanced streamable graphics.
 
-# ![Image](https://download.ismailcetin.dev/ctntext3d.jpg)
-[Preview](https://media.discordapp.net/attachments/974971714876375084/1252168644058939392/ctntext3d2.gif?ex=66713c6c&is=666feaec&hm=10ad9b5ece6de671bfc5f25088134a84185181794b25bef3c6c6d3e4ecc56a1f&)
+# ![Image](https://media.discordapp.net/attachments/974971714876375084/1252189810169352213/ctntext3d.jpg?ex=66715023&is=666ffea3&hm=63f9103b1607d5e5f398ff5114f8971dda1709ddd4f89d680dc6162cb16cd943&)
+[Preview](https://media.discordapp.net/attachments/974971714876375084/1252168644058939392/ctntext3d2.gif?ex=66713c6c&is=666feaec&hm=10ad9b5ece6de671bfc5f25088134a84185181794b25bef3c6c6d3e4ecc56a1f&){:target="_blank" rel="noopener"}
 
 ## Installation
 
